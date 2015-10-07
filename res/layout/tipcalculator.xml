@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff" >
+	
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#ffffff">
+    
+    <RelativeLayout
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart = "10dp"
+        android:layout_marginEnd = "10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="3dp"
+            android:text="TOTAL PRICE"
+            android:textStyle="bold"
+            android:fontFamily="OpenSans"
+            android:textColor="#34495e" />
+
+        <ImageView
+            android:id="@+id/ImageView01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView1"
+            android:background="@drawable/blue_line" />
+        
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/transparent"
+            android:ems="10"
+            android:fontFamily="OpenSans"
+            android:gravity="right"
+            android:inputType="numberDecimal"
+            android:text="$ "
+            android:textStyle="bold"
+            android:textColor="#34495e" >
+
+        <requestFocus/>
+        </EditText>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ImageView01"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="3dp"
+            android:fontFamily="OpenSans"
+            android:text="AMOUNT OF TIP"
+            android:textStyle="bold"
+            android:textColor="#34495e" />
+        
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:layout_marginStart = "10dp"
+        android:layout_marginEnd = "10dp"
+        android:orientation="vertical">
+        
+    <Button
+        android:id="@+id/button1"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="65dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="2dp"
+        android:text="10%"
+        android:textColor="#ffffff"
+        android:background="#34495e" />
+
+    <Button
+        android:id="@+id/button5"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="65dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/button1"
+        android:layout_marginRight="2dp"
+        android:text="12%"
+        android:textColor="#ffffff"
+        android:background="#34495e"/>
+
+    <Button
+        android:id="@+id/button2"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="65dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/button5"
+        android:layout_marginRight="2dp"
+        android:text="15%"
+        android:textColor="#ffffff"
+        android:background="#34495e" />
+
+    <Button
+        android:id="@+id/button3"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="65dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/button2"
+        android:layout_marginRight="2dp"
+        android:text="17.5%"
+        android:textColor="#ffffff"
+        android:background="#34495e" />
+
+    <Button
+        android:id="@+id/button4"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="65dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/button3"
+        android:text="20%"
+        android:textColor="#ffffff"
+        android:background="#34495e"/>
+    
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart = "10dp"
+        android:layout_marginEnd = "10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp">
+
+    	<TextView
+    	    android:id="@+id/textView2"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:layout_alignParentLeft="true"
+    	    android:layout_alignParentTop="true"
+    	    android:layout_margin="3dp"
+    	    android:fontFamily="OpenSans"
+            android:textColor="#34495e"
+            android:textStyle="bold"
+    	    android:text="OTHER" />
+
+    	<EditText
+    	    android:id="@+id/editText2"
+    	    android:layout_width="100dp"
+    	    android:layout_height="30dp"
+    	    android:layout_alignParentTop="true"
+    	    android:layout_toRightOf="@+id/textView2"
+    	    android:fontFamily="OpenSans"
+            android:textColor="#34495e"
+    	    android:ems="10"
+    	    android:gravity="right"
+    	    android:background="@drawable/transparent"
+    	    android:inputType="numberDecimal" />
+
+    	<TextView
+    	    android:id="@+id/textView3"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:layout_alignBaseline="@+id/textView2"
+    	    android:layout_toRightOf="@+id/editText2"
+    	    android:fontFamily="OpenSans"
+    	    android:text="%"
+    	    android:textStyle="bold"
+    	    android:textColor="#34495e" />
+    	
+    	<ImageView 
+    	    android:id="@+id/imageView1"
+    	    android:layout_width="170dp"
+    	    android:layout_height="wrap_content"
+    	    android:layout_below="@+id/textView2"
+    	    android:background="@drawable/blue_line"/>
+        
+    </RelativeLayout>
+    
+  	<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart = "10dp"
+        android:layout_marginEnd = "10dp"
+        android:layout_marginBottom="15dp">
+
+  		<TextView
+  		    android:id="@+id/textView5"
+  		    android:layout_width="wrap_content"
+  		    android:layout_height="wrap_content"
+  		    android:layout_alignParentTop="true"
+  		    android:layout_centerHorizontal="true"
+  		    android:layout_margin="3dp"
+  		    android:fontFamily="OpenSans"
+  		    android:text="TOTAL AMOUNT OF TIP"
+  		    android:textColor="#34495e"
+  		    android:textStyle="bold" />
+
+  		<TextView
+  		    android:id="@+id/textView6"
+  		    android:layout_width="match_parent"
+  		    android:layout_height="40dp"
+  		    android:gravity="center"
+  		    android:layout_below="@+id/textView5"
+  		    android:layout_marginTop="10dp"
+  		    android:layout_centerHorizontal="true"
+  		    android:fontFamily="OpenSans"
+  		    android:text="$0.00"
+  		    android:textSize="17dp"
+  		    android:textColor="#ffffff"
+        	android:background="#f39c12"/>
+  	    
+  	</RelativeLayout>
+  	
+  	<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart = "10dp"
+        android:layout_marginEnd = "10dp"
+        android:layout_marginBottom="15dp">
+
+  		<TextView
+  		    android:id="@+id/textView7"
+  		    android:layout_width="wrap_content"
+  		    android:layout_height="wrap_content"
+  		    android:layout_alignParentTop="true"
+  		    android:layout_centerHorizontal="true"
+  		    android:layout_margin="3dp"
+  		    android:fontFamily="OpenSans"
+  		    android:text="PRIZE + TIP"
+  		    android:textColor="#34495e"
+  		    android:textStyle="bold" />
+
+  		<TextView
+  		    android:id="@+id/textView8"
+  		    android:layout_width="match_parent"
+  		    android:layout_height="40dp"
+  		    android:gravity="center"
+  		    android:layout_below="@+id/textView7"
+  		    android:layout_marginTop="10dp"
+  		    android:layout_centerHorizontal="true"
+  		    android:fontFamily="OpenSans"
+  		    android:text="$0.00"
+  		    android:textSize="17dp"
+  		    android:textColor="#ffffff"
+        	android:background="#f39c12"/>
+  	    
+  	</RelativeLayout>
+  	
+</LinearLayout>
+</ScrollView>

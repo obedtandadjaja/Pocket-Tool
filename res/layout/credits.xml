@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0f0f0" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:fontFamily="OpenSans"
+        android:text="Developer: Obed J Tandadjaja\nCovenant College Class of 2017\nApp Designer: Jennifer Wiriawan\nTools Version 1.0.0\n\n&apos;Delight yourself in the Lord and He\nwill give you the desires of your heart&apos;\n\t\tPsalm 37:3\n\nContact us:\nobed.tandadjaja@gmail.com\njennifer.wiriawan@gmail.com\n\nSuggestions and comments are\ngreatly appreciated"
+        android:textColor="#000000"
+        android:background="#ffffff" />
+
+</RelativeLayout>

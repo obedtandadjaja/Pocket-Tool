@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewFlipper xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/vf"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+	<include android:id="@+id/inch" layout="@layout/ruler" />
+    <include android:id="@+id/cm" layout="@layout/ruler_cm" />
+    
+</ViewFlipper>

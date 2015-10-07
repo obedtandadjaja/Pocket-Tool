@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_height="fill_parent"
+    android:layout_width="match_parent"
+    android:fillViewport="true">
+    
+<RelativeLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Message:"
+        android:fontFamily="OpenSans"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#34495e"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/textView1"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/black_border"
+        android:padding="10dp"
+        android:textColor="#000000"
+        android:fontFamily="OpenSans"
+        android:gravity="top"
+        android:ems="10"
+        android:maxLength="30" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText1"
+        android:fontFamily="OpenSans"
+        android:text="Background Color:"
+        android:layout_marginLeft="25dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#34495e"
+        android:textStyle="bold" />
+        
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_alignRight="@+id/editText1"
+        android:layout_below="@+id/textView2"
+        android:background="#000000"
+        android:textColor="#FFFFFF"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="10dp"
+        android:fontFamily="OpenSans"
+        android:text="Text Color:"
+        android:textColor="#34495e"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button1"
+        android:layout_alignRight="@+id/button1"
+        android:layout_below="@+id/TextView01"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/black_border"
+        android:textColor="#FFFFFF"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/button2"
+        android:layout_marginTop="10dp"
+        android:fontFamily="OpenSans"
+        android:text="Animation:"
+        android:textColor="#34495e"
+        android:textStyle="bold" />
+    
+    <ToggleButton
+        android:id="@+id/toggleButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignRight="@+id/button2"
+        android:layout_below="@+id/TextView02"
+        android:layout_marginTop="10dp"
+        android:background="#34495e"
+        android:textOff="No Animation"
+        android:textColor="#ffffff"
+        android:fontFamily="OpenSans"
+        android:textOn="Animate Horizontally" />
+    
+    <TextView
+        android:id="@+id/TextView03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/toggleButton1"
+        android:layout_marginTop="10dp"
+        android:fontFamily="OpenSans"
+        android:text="Font:"
+        android:textColor="#34495e"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/toggleButton1"
+        android:layout_alignRight="@+id/toggleButton1"
+        android:layout_below="@+id/TextView03"
+        android:layout_marginTop="10dp"
+        android:background="#34495e"
+        android:textColor="#ffffff"
+        android:text="OpenSans"
+        android:textSize="14dp" />
+    
+    <TextView
+        android:id="@+id/TextView04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/button4"
+        android:layout_marginTop="10dp"
+        android:fontFamily="OpenSans"
+        android:text="Animation Speed:"
+        android:textColor="#34495e"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/toggleButton1"
+        android:layout_alignRight="@+id/toggleButton1"
+        android:layout_below="@+id/TextView04"
+        android:layout_marginTop="10dp"
+        android:background="#34495e"
+        android:textColor="#ffffff"
+        android:text="Slow"
+        android:textSize="14dp"
+        android:visibility="gone" />
+    
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/button5"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:background="#f39c12"
+        android:fontFamily="OpenSans"
+        android:layout_marginTop="70dp"
+        android:text="Make Sign"
+        android:textColor="#ffffff" />
+    
+</RelativeLayout>
+</ScrollView>
