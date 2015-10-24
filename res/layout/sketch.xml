@@ -85,6 +85,21 @@
             android:text="@string/redo"
             android:textColor="#ffffff" />
         
+        <Button
+            android:id="@+id/button6"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/button4"
+            android:background="#f39c12"
+            android:fontFamily="OpenSans"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:text="@string/save"
+            android:textColor="#ffffff" />
+        
         
     </LinearLayout>
     

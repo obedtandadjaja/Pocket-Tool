@@ -25,5 +25,7 @@
     <string name="eraser">&#xf12d;</string>
     <string name="clear">&#xf068;</string>
     <string name="size">&#xf055;</string>
+    <string name="pencil">&#xf040;</string>
+    <string name="save">&#xf0c7;</string>
 
 </resources>
