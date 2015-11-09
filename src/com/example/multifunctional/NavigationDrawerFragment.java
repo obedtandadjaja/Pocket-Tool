@@ -2,7 +2,7 @@ package com.example.multifunctional;
 
 import java.util.ArrayList;
 
-import com.example.multifunctional.R;
+import com.app.obedtandadjaja.multifunctional.R;
 
 import android.support.v7.app.ActionBarActivity;
 import android.app.Activity;

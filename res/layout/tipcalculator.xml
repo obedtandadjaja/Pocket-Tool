@@ -47,7 +47,7 @@
             android:layout_alignParentRight="true"
             android:layout_alignParentTop="true"
             android:layout_marginRight="20dp"
-            android:background="@drawable/transparent"
+            android:background="#00ffffff"
             android:ems="10"
             android:fontFamily="OpenSans"
             android:gravity="right"
@@ -172,7 +172,7 @@
             android:textColor="#34495e"
     	    android:ems="10"
     	    android:gravity="right"
-    	    android:background="@drawable/transparent"
+    	    android:background="#00ffffff"
     	    android:inputType="numberDecimal" />
 
     	<TextView

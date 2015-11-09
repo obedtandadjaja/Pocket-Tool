@@ -4,7 +4,7 @@ import java.text.DecimalFormat;
 import java.util.HashMap;
 import java.util.Map;
 
-import com.example.multifunctional.R;
+import com.app.obedtandadjaja.multifunctional.R;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -15,7 +15,6 @@ import android.view.ContextMenu.ContextMenuInfo;
 import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;

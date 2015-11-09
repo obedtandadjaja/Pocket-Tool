@@ -2,7 +2,7 @@ package com.example.multifunctional;
 
 import java.util.ArrayList;
 
-import com.example.multifunctional.R;
+import com.app.obedtandadjaja.multifunctional.R;
 
 import android.app.AlertDialog;
 import android.content.Context;
@@ -12,7 +12,6 @@ import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
 import android.graphics.Color;
 import android.graphics.Typeface;
-import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;

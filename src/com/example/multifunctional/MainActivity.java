@@ -1,6 +1,6 @@
 package com.example.multifunctional;
 
-import com.example.multifunctional.R;
+import com.app.obedtandadjaja.multifunctional.R;
 
 import android.app.Activity;
 import android.app.Dialog;

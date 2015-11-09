@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+import com.app.obedtandadjaja.multifunctional.R;
 
 public class Blank extends Activity {
 

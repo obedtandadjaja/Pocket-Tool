@@ -5,9 +5,8 @@ import java.io.FileOutputStream;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
-
+import com.app.obedtandadjaja.multifunctional.R;
 import com.example.multifunctional.ColorPickerDialog.OnColorChangedListener;
-
 import android.app.Dialog;
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -17,7 +16,6 @@ import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Path;
-import android.graphics.PorterDuff;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.os.Environment;

@@ -11,6 +11,7 @@ import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.ToggleButton;
+import com.app.obedtandadjaja.multifunctional.R;
 
 public class FlashLight extends Fragment {
 

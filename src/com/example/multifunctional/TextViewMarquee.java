@@ -1,19 +1,17 @@
 package com.example.multifunctional;
 
 import java.lang.reflect.Field;
-
 import android.app.Activity;
-import android.graphics.Color;
 import android.graphics.Typeface;
 import android.os.Build;
 import android.os.Bundle;
-import android.text.TextUtils.TruncateAt;
 import android.util.DisplayMetrics;
 import android.view.View;
 import android.view.View.MeasureSpec;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
+import com.app.obedtandadjaja.multifunctional.R;
 
 public class TextViewMarquee extends Activity {
     private TextView tv;

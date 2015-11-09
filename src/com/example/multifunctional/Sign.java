@@ -1,9 +1,7 @@
 package com.example.multifunctional;
 
-import java.util.ArrayList;
-
+import com.app.obedtandadjaja.multifunctional.R;
 import com.example.multifunctional.ColorPickerDialog.OnColorChangedListener;
-
 import android.content.DialogInterface;
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -16,7 +14,6 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.view.Window;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.CompoundButton;
 import android.widget.CompoundButton.OnCheckedChangeListener;
